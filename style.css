@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+}
+body { 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.announcement-bar {
+    background-image: linear-gradient(#FBA24F , #fc7f42);
+    padding: 10px 0;
+}
+.announcement-bar h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+header {
+    padding: 1% 5%;
+}
+header div.logo {
+    width: 25%;
+}
+header ul.menu {
+    width: 50%;
+    gap: 0;
+}
+header ul.cart-menu{
+    width: 25%;
+}
+header ul.menu, header ul.cart-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header ul.menu li a {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 25px;
+    color: #333;
+    border-radius: 30px;
+    background: transparent;
+    text-decoration: none;
+}
+header ul.menu li a:hover {
+    color: #FC8F48;
+    border-radius: 30px;
+}
+section {
+    margin: 50px 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-white {
+    color: #000;
+}
+.dot-bg {
+    background-image: url(images/female/Group\ 88.png);
+    background-repeat: no-repeat;
+    background-position: 1182px 585px;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+.w-50 {
+    width: 50%;
+}
+.w-80 {
+    width: 80%;
+}
+.w-100 {
+    width: 100%;
+}
+.w-33 {
+    width: 33.33%;
+}
+h1 {
+    font-size: 60px;
+    color: #575757;
+    line-height: 78px;
+    font-weight: 700;
+}
+p {
+    color: #828282;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+
+}
+.orange {
+    color: #FBA24F;
+}
+.button {
+    border-radius: 100px;
+    padding: 24px 40px;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+}
+.flex-item p {
+    margin-bottom: 80px;
+}
+.about-us-section {
+    margin: 0;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+.about-us-section h1 {
+    color: #707070;
+    font-size: 40px;
+}
+.about-us-section p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+    font-weight: 400;
+    padding-right: 300px;
+    margin-bottom: 80px;
+}
+
+.recipies-section {
+  padding-top: 5px;
+}
+.recipies-section h1 {
+    font-size: 40px;
+
+}
+.recipie-para {
+    padding: 0 340px;
+    margin-bottom: 30px;    
+}
+.card-item {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    margin: 0 2%;
+    padding-bottom: 20px;      
+}
+.card-item img {
+    padding: 25px;
+    padding-bottom: 0;
+}
+.card-item h1 {
+    color: #18191F;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 25px;
+}
+.card-item p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #18191F;
+    padding-right: 150px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 25px;
+}
+.countdown-section {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 150px;
+}
+.countdown {
+   padding-left: 12%;
+}
+.count-item {
+    margin: 0 2%;
+    padding: 60px 0;
+}
+.count-item h1 {
+    font-size: 48px;
+    color: #18191F;
+    font-weight: 700;
+    margin: 0;
+}
+.count-item p {
+    margin: 0;
+}
+footer{
+    background: #0B0D17;
+    padding: 50px 0;
+    padding-bottom: 10px;
+    margin-top: 150px;
+}
+footer h1 span, .logo h1 span {
+    background: linear-gradient(to right,#FBA24F , #fc7f42);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer h1, .logo h1 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+}
+footer p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.final-footer .copyright p,{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 70px;
+}
+
+footer ul.sitemap, header ul {
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.final-footer {
+    padding: 0 5%;
+}
+.final-footer ul, header ul.cart-menu {
+    gap: 0px;
+    justify-content: flex-end;
+}
+.final-footer ul li a, header ul.cart-menu li a {
+    text-decoration: none;
+}
+.final-footer ul li a img, header ul.cart-menu li a img {
+    width: 50%;
+}
